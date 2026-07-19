@@ -8,6 +8,11 @@
   display: none !important;
 }
 
+/* 显式声明中文字体：避免换设备投影时，中文渲染成不同系统默认字体 */
+.slidev-layout {
+  font-family: 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
+}
+
 /* 对话气泡（Agent 示例页）：让举例更像真实聊天，更精致 */
 .bubble-ai {
   background: #eef3fb;

@@ -272,9 +272,9 @@ layout: two-cols
 
 <div class="border border-gray-300 rounded-lg p-6 text-center">
 <div class="text-lg opacity-70">所有分析需求</div>
-<div class="text-5xl my-4">⬇</div>
+<div class="text-xl text-primary leading-none my-2">↓</div>
 <div class="text-2xl font-bold text-primary">技术团队</div>
-<div class="text-5xl my-4">⬇</div>
+<div class="text-xl text-primary leading-none my-2">↓</div>
 <div class="text-lg opacity-70">各部门</div>
 <div class="mt-4 text-primary font-bold">单点瓶颈</div>
 </div>
@@ -379,7 +379,7 @@ layout: section
 </div>
 
 <div class="mt-4 text-center text-lg">
-面向 C 端的"<span class="text-primary font-bold">潇湘单招 AI 老师</span>"，即将在线上服务真实用户。
+面向 C 端的"<span class="text-primary font-bold">潇湘单招 AI 老师</span>"，已经在线上服务真实用户。
 </div>
 
 ---
@@ -418,7 +418,7 @@ layout: section
 <div class="space-y-2.5">
 <div class="flex gap-2 items-end justify-end"><div class="bubble-user rounded-2xl rounded-br-md px-3 py-2 text-sm shadow-sm">计算机专业哪个学校好？</div><div class="avatar-user w-6 h-6 rounded-full text-white text-xs flex items-center justify-center flex-shrink-0">你</div></div>
 <div class="flex gap-2 items-end"><div class="avatar-user w-6 h-6 rounded-full text-white text-xs flex items-center justify-center flex-shrink-0">AI</div><div class="bubble-user rounded-2xl rounded-bl-md px-3 py-2 text-sm shadow-sm">一般来说 XX 职院还不错……</div></div>
-<div class="text-xs opacity-50 pl-8">不问科类 / 估分就硬答 → 答了等于没答</div>
+<div class="text-xs opacity-70 pl-8">不问科类 / 估分就硬答 → 答了等于没答</div>
 </div>
 </div>
 
@@ -482,7 +482,7 @@ layout: section
 
 <div class="grid grid-cols-2 gap-6 mt-5">
 
-<div class="card-danger rounded-xl p-5">
+<div class="card-danger rounded-xl p-5 h-full">
 <h3 class="text-gray-600">如果不管</h3>
 <ul class="mt-3 space-y-2 text-sm">
 <li>两个请求都读到"还剩 1 次" → 都放行 → <b>白扣 / 超用</b></li>
@@ -490,7 +490,7 @@ layout: section
 </ul>
 </div>
 
-<div class="card-safe rounded-xl p-5">
+<div class="card-safe rounded-xl p-5 h-full">
 <h3 class="text-primary">我们的做法：临界区</h3>
 <ul class="mt-3 space-y-2 text-sm">
 <li>把"扣额度、写回复"这些关键动作，圈成一次只放一个人进的<b>"窄门"</b></li>
@@ -509,7 +509,7 @@ layout: section
 layout: fact
 ---
 
-# 即将上线
+# 已上线
 
 <div>不是概念演示，是每天在跑的<span class="text-primary">生产系统</span></div>
 
@@ -727,8 +727,7 @@ layout: section
 -->
 
 ---
-layout: center
-class: text-center
+layout: statement
 ---
 
 # 谢谢
