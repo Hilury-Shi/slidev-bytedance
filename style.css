@@ -1,0 +1,39 @@
+/* 隐藏模板自带的 ByteDance logo。
+   若要换成公司自己的 logo：替换 public/images/logo-1.png（封面）与 logo-2.png（内页），
+   然后删除本文件即可恢复显示。 */
+.slidev-layout .logo {
+  display: none !important;
+}
+.slidev-layout.cover > img {
+  display: none !important;
+}
+
+/* 对话气泡（Agent 示例页）：让举例更像真实聊天，更精致 */
+.bubble-ai {
+  background: #eef3fb;
+  color: #1f2d3d;
+}
+.bubble-user {
+  background: #f2f4f7;
+  color: #1f2d3d;
+}
+.avatar-ai {
+  background: var(--slidev-theme-primary);
+}
+.avatar-user {
+  background: #aab2c0;
+}
+.memo-card {
+  background: #eef3fb;
+  border: 1px solid var(--slidev-theme-primary);
+}
+
+/* 并发页：危险 vs 我们的做法，用冷暖色区分 */
+.card-danger {
+  background: #fdf3f2;
+  border: 1px solid #e6b8b3;
+}
+.card-safe {
+  background: #eef3fb;
+  border: 1px solid var(--slidev-theme-primary);
+}
